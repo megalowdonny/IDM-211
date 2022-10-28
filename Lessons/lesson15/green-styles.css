@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.row .navbar.navbar-default {
+	background-color: #CCC;
+	background-image: -webkit-linear-gradient(90deg,rgba(9,127,163,1.00) 0%,rgba(14,98,152,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(9,127,163,1.00) 0%,rgba(14,98,152,1.00) 100%);
+	-webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+body {
+	font-family: source-sans-pro, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+.row .navbar.navbar-default .container-fluid #defaultNavbar1 .nav.navbar-nav {
+}
+.row .nav.navbar-nav {
+	margin: 0 auto;
+	width: 660px;
+	float: none;
+}
+.navbar-default .navbar-nav > li > a , .navbar-default .navbar-nav > li > a:visited{
+	text-decoration: none;
+	color: #ffffcc;
+	font-family: 'Source Sans Pro';
+	font-size: 90%;
+	font-weight: 400;
+	line-height: 22px;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+	border-left: 1px solid #29C;
+	border-right: 1px solid #066;
+	border-bottom: 1px solid #066;
+	border-top: 1px solid #29C;
+}
+.navbar-default .navbar-nav > li > a:hover        {
+	color: #FFF;
+	background-color: #CCC;
+	background-image: -webkit-linear-gradient(270deg,rgba(9,127,163,1.00) 0%,rgba(14,98,152,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(9,127,163,1.00) 0%,rgba(14,98,152,1.00) 100%);
+	-webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.navbar-default .navbar-nav >.open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+	background-color: #0099CC;
+	color: #FFF;
+}
+.dropdown-menu {
+	padding: 0;
+	margin: 0;
+}
+.dropdown-menu > li > a {
+	padding: .5em;
+	color: #ffffcc;
+	background-color: #069;
+	border-left: 1px solid #29C;
+	border-right: 1px solid #066;
+	border-bottom: 1px solid #066;
+	border-top: 1px solid #29C;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #FFF;
+	background-color: #09C;
+}
+.row .navbar {
+	margin-bottom: 0;
+}
+header {
+	text-align: center;
+	height: 200px;
+	background-color: #999;
+	color: #fff;
+	border-bottom: 5px solid #FD5;
+	border-top: 5px solid #FD5;
+	margin-bottom: 10px;
+	background-image: url(images/fern.png) , url(images/stripe.png) , -webkit-linear-gradient(270deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+	background-image: url(images/fern.png) , url(images/stripe.png) , linear-gradient(180deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+	background-repeat: no-repeat , repeat-x;
+	background-position: 45% center, 0 0;
+	background-size: auto 75%, auto auto, auto;
+	margin-top: 2.6em;
+}
+header h2 {
+	margin-top: 1em;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	text-shadow: 0px 0px 12.48px rgba(0, 0, 0, 0.5);
+	color: #00ff00;
+	line-height: 0.8em;
+	font-family: Impact;
+	font-size: 66px;
+	font-weight: 400;
+}
+header p {
+	margin: 0;
+	line-height: 5em;
+	font-family: LucidaGrande;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	text-shadow: 0px 3px 4px rgba(0, 0, 1, 0.38);
+	letter-spacing: .5em;
+}
+.logowhite {
+	color: #FFF;
+}
+.sidebar1 blockquote {
+	margin: 0 0 20px 0;
+	border: none;
+	padding: 0;
+	font-size: inherit;
+}
+.sidebar1 blockquote p {
+	margin: 0 0 5px 0;
+	padding: 0 .5em;
+	text-indent: -0.4em;
+}
+.sidebar1 blockquote cite {
+	display: block;
+	font-size: 90%;
+	text-align: right;
+	font-style: italic;
+}
+main.row aside {
+	border-top: solid 5px #069;
+	border-bottom: 3px solid #069;
+	padding: 10px;
+	min-height: 150px;
+	font-size: 90%;
+}
+.sidebar2 {
+	background-color: #ccffcc;
+}
+.flt_rgt {
+	float: right;
+	margin-left: 10px;
+}
+.flt_lft {
+	float: left;
+	margin-left: 10pt;
+}
+main.row section h1 {
+	font-family: bree-serif, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 300%;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	line-height: 1em;
+}
+main.row section article h2 {
+	font-size: 200%;
+	font-family: 'Source Sans Pro';
+	color: #009900;
+	font-weight: 700;
+	line-height: 1em;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+footer {
+	background-color: #CCC;
+	background-image: -webkit-linear-gradient(90deg,rgba(3,75,9,1.00) 0%,rgba(3,185,36,1.00) 100%);
+	padding: 10px;
+	background-image: linear-gradient(0deg, #034b09 0%, #03b924 100%);
+	color: #FFC;
+}
