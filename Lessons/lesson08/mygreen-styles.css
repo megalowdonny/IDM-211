@@ -266,3 +266,11 @@ table caption {
 	line-height: 1.2em;
 	text-align: center;
 }
+.flt-rgt {
+	float: right;
+	margin-left: 10px;
+}
+.flt-lft {
+	float: left;
+	margin-right: 10px;
+}
