@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	min-height: 100vh;
+	
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.upperSection {
+	background-color: #8AC7A2;
+	background: linear-gradient(#8AC7A2, #57AE79);
+	height: 100px;
+	
+	display: flex;
+	flex-direction: column;
+	
+}
+
+header {
+	
+}
+
+header h2 {
+	font-size: 36px;
+	font-style: italic;
+}
+
+nav {
+	width: 60%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+nav a:not(:last-child){
+	border-right: 1px solid black;
+}
+
+.middleSection {
+	background: linear-gradient(#57AE79, #8AC7A2)
+}
+
+footer {
+	background: #8AC7A2;
+	width: 100%;
+}
