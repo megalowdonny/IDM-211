@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+:root {
+	--dark-red: #821C1C; /* was #8C1919 */
+	--dark-green: #0D4E2F;
+	--dark-purple: #4D2C4B; /* was #442C4C */
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -30,7 +36,7 @@ body {
 
 header {
 	border: 1px solid purple;
-	background-color: #8c1919;
+	background-color: var(--dark-red);
 	height: 100px;
 	
 	display: flex;
@@ -44,7 +50,7 @@ header {
 
 nav {
 	height: 40px;
-	background-color: #0D4E2F;
+	background-color: var(--dark-green);
 	
 	display: flex;
 	justify-content: center;
@@ -65,7 +71,7 @@ nav {
 
 .middleSection {
 	border: 1px solid pink;
-	background-color: #442C4C;
+	background-color: var(--dark-purple);
 }
 
 .bottomSection {
