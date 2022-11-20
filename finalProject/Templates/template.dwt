@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>INSERT TITLE HERE</title>
+	<!-- TemplateEndEditable -->
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta name="description" content="DESCRIPTION GOES HERE">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+	
+<body>
+	<div class="upperSection">
+		<header>
+			<a href="index.html"><h2 class="banner">Velvet Rose Tattoo Studio</h2></a>
+		</header>
+
+		<nav>
+			<div class="navContainer">
+				<a href="about.html" class="navLink">About Us</a>
+				<a href="contact.html" class="navLink">Contact</a>
+				<a href="#" class="navLink">Link 1</a>
+			</div>
+		</nav>
+	</div>
+	
+	<div class="middleSection">
+	  <!-- TemplateBeginEditable name="Main Section" -->
+		<section class="mainSection">
+		  <h1 class="mainHeading">PAGE HEADER GOES HERE</h1>
+		  <p>OTHER STUFF GOES HERE</p>
+	  </section>
+    <!-- TemplateEndEditable --> </div>
+	
+	<footer class="bottomSection">
+		<span class="bottomCitation">&copy; Travis Vawser 2022</span>
+	</footer>
+</body>
+</html>

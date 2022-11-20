@@ -7,13 +7,18 @@
 	--dark-purple: #4D2C4B; /* was #442C4C */
 }
 
-html {
+*, html {
 	box-sizing: border-box;
 }
 
 body, h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 a {
@@ -31,11 +36,10 @@ body {
 }
 
 .upperSection {
-	border: 1px solid orange;
+	
 }
 
 header {
-	border: 1px solid purple;
 	background-color: var(--dark-red);
 	height: 100px;
 	
@@ -59,7 +63,6 @@ nav {
 
 .navContainer {
 	width: 50%;
-	border: 1px solid black;
 	
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -71,11 +74,10 @@ nav {
 }
 
 .navLink:not(:last-child) {
-	border-right: 1px solid black;
+	border-right: 3px dotted black;
 }
 
 .middleSection {
-	border: 1px solid pink;
 	background-color: var(--dark-purple);
 	
 	display: flex;
@@ -84,12 +86,125 @@ nav {
 }
 
 .mainSection {
-	width: 50%;
-	min-height: ;
-	background-color: grey;
+	margin: 40px auto;
+  padding: 20px 0;
+	width: 75%;
+	min-height: 20%;
+	background-color: #808080;
+}
+
+.mainHeading {
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 20px
+}
+
+#availability {
+	margin-bottom: 30px;
+}
+
+#mapsLink {
+	color: var(--dark-purple);
+	font-weight: 600;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 10%);
+}
+
+.info {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.googleMap {
+	margin: 40px auto;
+  border: 10px solid black;
+  border-radius: 10px;
+  width: 450px;
+  height: 350px;
+  background-color: lightgray;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#artistList {
+  padding: 0 40px;
+}
+
+#artistList li:first-child{
+  margin-bottom: 20px;
+}
+
+figcaption {
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.bioContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #9A9A9A;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.bioName {
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.instaHandle {
+  display: block;
+  padding: 20px 0;
+  font-size: 24px;
+  color: #6F0E3D;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#flashBio {
+  text-align: left;
+}
+
+#flashPFP {
+  float: right;
+}
+
+#geckoBio {
+  text-align: right;
+}
+
+#geckoPFP {
+  float: left;
+}
+
+#shopBio {
+  text-align: left;
+}
+
+#shopPFP {
+  float: right;
+}
+
+.phone {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+#faqTable {
+  width: 100%;
+}
+
+#faqTable th, td{
+  padding: 10px;
+  background-color: #9A9A9A;
+  border-radius: 8px;
+}
+
+#faqTable th {
 }
 
 .bottomSection {
 	background-color: var(--dark-purple);
-	border: 1px solid green;
 }
