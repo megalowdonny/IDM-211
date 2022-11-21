@@ -200,13 +200,22 @@ nested inside to make sure that we change only the targetted modes coloring.
 /* CSS, SCSS, LESS Specific Code Colouring */
 .CSS, .SCSS, .LESS {
 	.cm-keyword, .cm-atom, .cm-hr, .cm-variable, .cm-number, .cm-attribute, .cm-plus, .cm-error, .cm-minus {
-		color: #e0af68;
+		color: #f7a169;
 	}
 	.cm-variable-4, .cm-meta  {
 		color: #E8E8E8;
 	}
 	.cm-def {
 		color: #e0af68;
+	}
+	.cm-property {
+		color: #7aa2f7;
+	}
+	.cm-tag {
+		color: #42b7d5;
+	}
+	.cm-builtin {
+		color: #f47f7e;
 	}
 }
 
