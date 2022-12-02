@@ -127,6 +127,12 @@ nav {
   justify-content: center;
 }
 
+#tikTok {
+	margin-top: 40px;
+	border: 8px solid black;
+	border-radius: 10px;
+}
+
 #artistList {
   padding: 0 40px;
 }
