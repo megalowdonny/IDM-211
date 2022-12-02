@@ -1,0 +1,33 @@
+// Scss Document
+$logogreen: #090;
+$darkgreen: #060;
+$lightgreen: #0F0;
+$logoblue: #069;
+$darkblue: #089;
+$lightblue: #08A;
+$font-stack: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+@import "_base.scss";
+body {
+	font-family: $font-stack;
+	color: #000;
+	margin: 0;
+}
+nav {
+	background: $logoblue;
+	text-align: center;
+	overflow: auto;
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			display: inline-block;
+			a {
+				margin: 0;
+				padding: 10px 15px;
+				color: #FFC;
+				text-decoration: none;
+				background: $logoblue;
+			}
+		}
+	}
+}
