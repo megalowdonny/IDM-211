@@ -7,6 +7,46 @@
 	--dark-purple: #4D2C4B; /* was #442C4C */
 }
 
+@font-face {
+  font-family: metalMania;
+  src: url("fonts/MetalMania-Regular.ttf")
+}
+
+@font-face {
+  font-family: sourceSans;
+  src: url("fonts/SourceSansPro-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sourceSans;
+  src: url("fonts/SourceSansPro-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: sourceSans;
+  src: url("fonts/SourceSansPro-SemiBold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sourceSans;
+  src: url("fonts/SourceSansPro-Bold.ttf");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sourceSans;
+  src: url("fonts/SourceSansPro-BoldItalic.ttf");
+  font-weight: bolder;
+  font-style: italic;
+}
+
 *, html {
 	box-sizing: border-box;
 }
@@ -28,7 +68,7 @@ a {
 
 body {
 	text-align: center;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family: sourceSans, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	min-height: 100vh;
 	
 	display: grid;
@@ -50,6 +90,7 @@ header {
 
 .banner {
 	font-size: 56px;
+  font-family: metalMania, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 
 nav {
@@ -69,8 +110,9 @@ nav {
 }
 
 .navLink {
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 24px;
+	font-weight: bolder;
+  font-style: italic;
 }
 
 .navLink:not(:last-child) {
@@ -96,6 +138,7 @@ nav {
 .mainHeading {
   font-size: 36px;
   font-style: italic;
+  font-weight: bolder;
   margin-bottom: 20px
 }
 
@@ -137,7 +180,7 @@ nav {
   padding: 0 40px;
 }
 
-#artistList li:first-child{
+#artistList li:not(:last-child){
   margin-bottom: 20px;
 }
 
@@ -182,6 +225,14 @@ figcaption {
 
 #geckoPFP {
   float: left;
+}
+
+#viccBio {
+  text-align: left;
+}
+
+#viccPFP {
+  float: right;
 }
 
 #shopBio {
