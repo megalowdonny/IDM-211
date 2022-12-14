@@ -66,21 +66,21 @@ body {
 	margin-bottom: 0;
 }
 header {
-	text-align: center;
-	height: 200px;
-	background-color: #999;
-	color: #fff;
-	border-bottom: 5px solid #FD5;
-	border-top: 5px solid #FD5;
-	margin-bottom: 10px;
-	background-image: url(images/fern.png) , url(images/stripe.png) , -webkit-linear-gradient(270deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
-	background-image: url(images/fern.png) , url(images/stripe.png) , linear-gradient(180deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
-	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
-	background-repeat: no-repeat , repeat-x;
-	background-position: 45% center, 0 0;
-	background-size: auto 75%, auto auto, auto;
-	margin-top: 2.6em;
+  text-align: center;
+  height: 200px;
+  background-color: #999;
+  color: #fff;
+  border-bottom: 5px solid #FD5;
+  border-top: 5px solid #FD5;
+  margin-bottom: 10px;
+  background-image: url(images/fern.png) , url(images/stripe.png) , -webkit-linear-gradient(270deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+  background-image: url(images/fern.png) , url(images/stripe.png) , linear-gradient(180deg,rgba(0,153,0,1.00) 0%,rgba(0,204,0,1.00) 100%);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.55);
+  background-repeat: no-repeat , repeat-x;
+  background-position: 45% center, 0 0;
+  background-size: auto 75%, auto auto, auto;
+  margin-top: 4em;
 }
 header h2 {
 	margin-top: 1em;
@@ -166,4 +166,20 @@ footer {
 	padding: 10px;
 	background-image: linear-gradient(0deg, #034b09 0%, #03b924 100%);
 	color: #FFC;
+}
+.navbar-header .navbar-toggle {
+  border-top: solid 1px #29C;
+  border-right: solid 1px #069;
+  border-bottom: solid 1px #069;
+  border-left: solid 1px #29C;
+}
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #29C;
+}
+.navbar-header .navbar-toggle:hover, 
+.navbar-header .navbar-toggle:focus {
+  background-color: #048;
+}
+.navbar-default .navbar-collapse {
+  border-top: solid 2px #048;
 }
