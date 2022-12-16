@@ -13,11 +13,6 @@ body {
 }
 .row .navbar.navbar-default .container-fluid #defaultNavbar1 .nav.navbar-nav {
 }
-.row .nav.navbar-nav {
-	margin: 0 auto;
-	width: 660px;
-	float: none;
-}
 .navbar-default .navbar-nav > li > a , .navbar-default .navbar-nav > li > a:visited{
 	text-decoration: none;
 	color: #ffffcc;
@@ -182,4 +177,15 @@ footer {
 }
 .navbar-default .navbar-collapse {
   border-top: solid 2px #048;
+}
+@media (min-width: 768px){
+.row .nav.navbar-nav {
+  margin: 0 auto;
+  width: 660px;
+  float: none;
+}
+
+}
+
+@media (max-width: 767px){
 }
