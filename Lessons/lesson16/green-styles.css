@@ -279,6 +279,10 @@ table caption {
 .embed-responsive-custom {
 	padding-bottom: 41.6667%;
 }
+.embed-responsive-item {
+	padding-bottom: 41.666666%;
+}
+
 @media (min-width: 768px){
 .row .nav.navbar-nav {
 	margin: 0 auto;
