@@ -178,6 +178,106 @@ footer {
 .navbar-default .navbar-collapse {
   border-top: solid 2px #048;
 }
+.flt-lft {
+	float: left;
+	margin-right: 10px;
+}
+.profile {
+	margin: 0 25px 15px 25px;
+	padding-left: 10px;
+	border-left: solid 2px #BDA;
+	border-bottom: solid 10px #BDA;
+}
+
+.flt-rgt {
+	float: right;
+	margin-left: 10px;
+}
+
+section table {
+	font-family: "Arial Narrow", Arial, Verdana, sans-serif;
+	margin-bottom: 2em;
+	font-size: 90%;
+	border-bottom: solid 3px #060;
+	width: 95%;
+	border-collapse: collapse;
+}
+section td, section th {
+	padding: 4px;
+	text-align: left;
+	border-top: solid 1px #090;
+}
+section th {
+	color: #FFC;
+	text-align: center;
+	border-bottom: solid 6px #060;
+	background-color: #090;
+}
+section .date {
+	width: 6em;
+}
+section .class {
+	width: 10em;
+}
+section .event {
+}
+section .description {
+}
+section .location {
+}
+section .cost {
+	width: 4em;
+	text-align: center;
+}
+section .length {
+	width: 4em;
+	text-align: center;
+}
+section .day {
+	width: 4em;
+	text-align: center;
+}
+table caption {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	color: #090;
+	font-size: 160%;
+	font-weight: bold;
+	line-height: 1.2em;
+	text-align: center;
+}
+.ui-state-default  ,.ui-widget-content .ui-state-default  ,.ui-widget-header .ui-state-default{
+	border-left: 1px solid #FFC;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	background-repeat: repeat-x;
+	background-position: 50% 50% repeat-x;
+	background-image: -webkit-linear-gradient(90deg,rgba(3,75,9,1.00) 0%,rgba(3,185,36,1.00) 100%);
+	background-color: #CCC;
+	font-weight: bold;
+	color: #1c94c4;
+	background-image: linear-gradient(0deg, #034b09 0%, #03b924 100%);
+}
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #FFC;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+	background-color: #0C0;
+	background-image: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background-color: #090;
+	-webkit-box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	background-repeat: repeat-x;
+	background-position: 50% 50% repeat-x;
+	background-image: none;
+}
+.ui-widget-content {
+	background-image: none;
+	background-color: #FFC;
+}
 @media (min-width: 768px){
 .row .nav.navbar-nav {
   margin: 0 auto;
@@ -188,4 +288,125 @@ footer {
 }
 
 @media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu >
+li >a:link , .navbar-default .navbar-nav .open
+.dropdown-menu > li >a:visited {
+	color: #FFC;		
+	}
+.navbar-default .navbar-nav .open .dropdown-menu >
+li > a:hover,.navbar-default .navbar-nav .open
+.dropdown-menu > li > a:focus {
+		color: #FFF;
+	}
+}
+
+@media (max-width: 530px){
+	header p {
+		letter-spacing: 0;
+		line-height: 2.5em;
+	}
+	header h2 {
+		font-size: 45px;
+	}
+	header {
+		height: 150px;
+		background-size: 85% auto, auto auto, auto;
+	}
+	main.row section h1 {
+		font-size: 225%;
+	}
+	main.row section article h2 {
+		margin: .5em 0;
+		font-size: 160%;
+	}
+	.profile {
+		margin: 10px 0;
+		padding: 5px 0;
+		border-top: solid 10px #CADAAF;
+		border-bottom: solid 5px #CADAAF;
+		border-left: none;
+	}
+	section td, section th {
+		display: block;
+	}
+	section table {
+		margin: 10px auto;
+	}
+	section th {
+		margin: 0;
+		height: 0;
+		padding: 0;
+		font-size: 0pt;
+		border: none;
+		overflow: hidden;
+	}
+	td.date:before {
+		content: "Date: "	
+	}
+	td.event:before {
+		content: "Event: ";
+	}
+	td.location:before {
+		content: "Location: ";
+	}
+	td.cost:before {
+		content: "Cost: ";
+	}
+	td.class:before {
+		content: "Class: ";
+	}
+	td.description:before {
+		content: "Description: ";
+	}
+	td.day:before {
+		content: "Day: ";
+	}
+	td.length:before {
+		content: "Length: ";
+	}
+	section .date,
+	section .event,
+	section .location,
+	section .cost,
+	section .class,
+	section .description,
+	section .length,
+	section .day {
+		width: 100%;
+		padding-left: 30%;
+		position: relative;
+		text-align: left;
+	}
+	td:before {
+		width: 25%;
+		display: block;
+		padding-right: 10px;
+		position: absolute;
+		top: 6px;
+		left: 1em;
+		color: #060;
+		font-weight: bold;
+		white-space: nowrap;
+	}
+	section tr {
+		border-bottom: solid 2px #060;
+	}
+	section tr:nth-of-type(even) {
+		background-color: #D4EAD4;
+	}
+	.flt-rgt.img-responsive {
+		float: none;
+		margin: 10px auto;
+	}
+table .hide-ad {
+	display: none;
+}
+div ul li {
+}
+#Accordion1 div ul {
+	padding: 0;
+}
+
+
+
 }

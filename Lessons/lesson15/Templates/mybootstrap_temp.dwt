@@ -18,7 +18,9 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/bree-serif:n4:default;source-sans-pro:n2,n4:default.js" type="text/javascript"></script>
-  <!-- TemplateBeginEditable name="head" -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	  <!-- TemplateBeginEditable name="head" -->
   <!-- TemplateEndEditable -->
 </head>
   <body>
@@ -59,14 +61,14 @@
 </div>
     </header>
 <main class="row">
-    	<aside class="col-sm-3 sidebar1">
+    	<aside class="col-sm-4 sidebar1 col-md-3">
 <!-- TemplateBeginEditable name="sidebar1" -->		  
         <blockquote>
           <p>&quot;Add quotation here.&quot;</p>
           <cite>Add author here</cite></blockquote>
  <!-- TemplateEndEditable -->
 		</aside>
-    <section class="col-sm-6">
+    <section class="col-sm-8 col-md-6">
  <!-- TemplateBeginEditable name="main_content" -->
       <h1>Add main heading here</h1>
       <article>
@@ -75,7 +77,7 @@
       </article>
     <!-- TemplateEndEditable -->
     </section>
-    <aside class="col-sm-3 sidebar2">
+    <aside class="col-sm-8 sidebar2 col-sm-push-4 col-md-3 col-md-push-0">
 <!-- TemplateBeginEditable name="sidebar2" -->		
       <p>Add sidebar content here.</p>
 <!-- TemplateEndEditable -->
@@ -85,8 +87,7 @@
       <div class="col-sm-12"><p>&copy; 2018 Meridien GreenStart. All rights reserved.</p></div>
     </footer>
   </div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="../js/jquery-1.11.3.min.js"></script>
+	
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="../js/bootstrap.js"></script>
